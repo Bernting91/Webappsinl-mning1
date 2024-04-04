@@ -1,0 +1,73 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #eb0303;
+    font-weight: bold;
+    background-color: #4b4646; 
+    padding: 5px; 
+    display: inline-block;
+}
+
+body.index {
+    background-image: url('images/colosseum.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+body.library {
+    background-image: url('images/riseandfall.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header, nav, main, aside, footer {
+    margin: 10px; 
+    padding: 10px; 
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+section, aside {
+    width: 45%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+footer {
+    clear: both;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #9379db; 
+    font-weight: bold; 
+    background-color: #4e4e4e;
+    padding: 5px; 
+    display: inline-block;
+}
+
+p {
+    color: #666; 
+    font-weight: bold; 
+    background-color: #4e4e4e; 
+    padding: 5px; 
+    display: inline-block;
+}
+.clear-button {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+}
